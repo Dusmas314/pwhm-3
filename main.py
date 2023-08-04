@@ -30,6 +30,6 @@ for vacancy in vac_list:
         jsons.append(prepared_json)
 
 
-with open("sample.json", "w", encoding='utf8') as f:
+with open("sample.json", "w", encoding='utf-8') as f:
     json.dump(jsons, f, ensure_ascii=False, indent=2)
 
